@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Internal Styling - middle precedence -->
+    <style>
+        body {
+            text-align: center;
+        }
+        h1 {
+            background-color: rgba(67, 208, 212, 0.705);
+        }
+        p {
+            background-color: rgba(63, 61, 61, 0.425);
+            color: blue;
+        }
+    </style>
+    <!-- Linking the external stylesheet -->
+    <link rel="stylesheet" href="./styles/style.css">
+  </head>
+  <body>
+<nav id><li>here</li>
+    <!-- Inline Styling - Highest precedence -->
+    <h1 style="color: blue">Dylans Application</h1>
+    <p style="color: red;">Red Paragraph</p>
+
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        box-sizing: border-box;
+        height: 100%;
+      }
+
+      * {
+        box-sizing: inherit;
+      }
+      section {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        border: 3px solid black;
+      }
+
+      .card {
+        max-width: 150px;
+        max-height: 100%;
+        border: 3px solid black;
+      }
+
+      nav {
+        height: 15%;
+        border: 3px solid black;
+      }
+
+      #hero {
+        height: 50%;
+        border: 3px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <img src="" alt="Logo" /> <button>Button1</button><button>Button2</button>
+    </nav>
+    <div id="hero"><img src="" alt="Hero Img" /></div>
+    <section>
+      <div class="card">
+        <img src="" alt="CardImages" />
+        <h1>Title1</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio illo
+          corporis, numquam minima, assumenda autem aliquid accusantium nam ut,
+          sunt commodi corrupti porro incidunt excepturi?
+        </p>
+      </div>
+      <div class="card">
+        <img src="" alt="CardImages" />
+        <h1>Title2</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio illo
+          corporis, numquam minima, assumenda autem aliquid accusantium nam ut,
+          sunt commodi corrupti porro incidunt excepturi?
+        </p>
+      </div>
+      <div class="card">
+        <img src="" alt="CardImages" />
+        <h1>Title3</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio illo
+          corporis, numquam minima, assumenda autem aliquid accusantium nam ut,
+          sunt commodi corrupti porro incidunt excepturi?
+        </p>
+      </div>
+      <div class="card">
+        <img src="" alt="CardImages" />
+        <h1>Title4</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio illo
+          corporis, numquam minima, assumenda autem aliquid accusantium nam ut,
+          sunt commodi corrupti porro incidunt excepturi?
+        </p>
+      </div>
+    </section>
+    
+  </body>
+<body>
+   <h2>Styling a link depending on state</h2>
+
+   <p><b>
+      <a href="http://perscholas.com" target="_blank">This is a link</a>
+   </b></p>
+   <p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+   <p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+
+</body>
+
+</html>
