@@ -1,18 +1,22 @@
-body, html{
-    margin:0
-    padding:0
-    box-sizing:border-box
-    *,*::before,*::after{
-        box-sizing:inherit
-    }
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
 }
-div{
-    height: 100%
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
+
+div {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #modal {
   height: 200px;
   width: 200px;
@@ -31,7 +35,8 @@ div{
   border-radius: 50%;
   box-shadow: 10px 10px 10px 6px rgba(0, 0, 0, 0.481);
 }
-background{
-    background: no-repeat center fixed url("../images/mountains2.jpg");
-   background-size: cover ;
+
+body {
+  background: url("../images/christmasvally.jpg.png") no-repeat center fixed;
+  background-size: cover;
 }
